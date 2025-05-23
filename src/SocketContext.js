@@ -4,8 +4,8 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-// const socket = io('https://ad-video-call-app.herokuapp.com/');
-const socket = io('http://localhost:5000');
+const socket = io('https://c-server-iota.vercel.app');
+// const socket = io('http://localhost:5000');
 
 const ContextProvider = ({ children }) => {
 
